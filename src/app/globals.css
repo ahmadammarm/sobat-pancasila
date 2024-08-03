@@ -4,15 +4,15 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: #C89116; /* Tan (Coklat Muda) */
+  --background-end-rgb: #FFDC92;   /* Beige (Krem) */
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 92, 64, 51;  /* Dark Brown */
+    --background-end-rgb: 60, 40, 30;    /* Very Dark Brown */
   }
 }
 
@@ -31,3 +31,31 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blinkingCursor {
+  from {
+    border-right-color: transparent;
+  }
+  to {
+    border-right-color: black;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black;
+  animation: typing 4s steps(40, end), blinkingCursor 0.75s step-end infinite;
+}
+
+
