@@ -5,6 +5,8 @@ import HomeLink from './components/HomeLink';
 import Loading from './components/Loading';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
+import BannerCarousel from './components/BannerCarousel';
+import Navbar from './components/Navbar';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,29 +25,26 @@ export default function Home() {
 
   return (
     <motion.main
-      className="flex min-h-screen flex-col items-center justify-between p-24 overflow-hidden">
+      className="flex min-h-screen flex-col items-center justify-between overflow-hidden">
+        <Navbar />
+      <BannerCarousel />
       <motion.h1
-        initial={{ opacity: 0, scale: 0.8 }}  // Mulai dengan ukuran kecil
-        animate={{ opacity: 1, scale: 1 }}    // Ukuran normal
-        transition={{ duration: 4 }}
-        className="text-[3rem] font-bold lg:text-[4rem] lg:font-extrabold text-center">
+        initial={{ opacity: 0, scale: 0.8 }} 
+        animate={{ opacity: 1, scale: 1 }}   
+        className="text-[3rem] font-bold lg:text-[4rem] lg:font-extrabold text-center mt-[7rem] text-yellow-500">
         SOBAT PANCASILA
       </motion.h1>
       <motion.p
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 4 }}
-        className="text-lg lg:text-xl text-center">
-        <Typewriter
-          options={{
-            strings: 'Platform untuk berbagi informasi seputar NKRI',
-            autoStart: true,
-            loop: true,
-            delay: 50,
-          }}
-        />
+        className="text-lg lg:text-xl text-center mb-[6rem]">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas?
       </motion.p>
-      <HomeLink />
+      <div>
+        
+      </div>
+      <HomeLink/>
     </motion.main>
   );
 }
