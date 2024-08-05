@@ -76,11 +76,11 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-yellow-500">
             <MobileNavLink href="/">Home</MobileNavLink>
             <MobileNavLink href="/about">About</MobileNavLink>
-            <MobileNavLink href="/services">Services</MobileNavLink>
-            <MobileNavLink href="/contact">Contact</MobileNavLink>
+            {/* <MobileNavLink href="/services">Services</MobileNavLink>
+            <MobileNavLink href="/contact">Contact</MobileNavLink> */}
           </div>
         </div>
       )}
