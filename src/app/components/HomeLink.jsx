@@ -22,25 +22,25 @@ const HomeLink = () => {
 
   const links = [
     {
-      href: '',
+      href: '/peta',
       text: 'PETA WILAYAH NKRI',
       imgSrc: '/peta.jpg',
       bgColor: 'bg-red-500',
     },
     {
-      href: '',
+      href: '/sejarah',
       text: 'SEJARAH WILAYAH INDONESIA',
       imgSrc: '/prambanan.jpg',
       bgColor: 'bg-green-500',
     },
     {
-      href: '',
+      href: '/suku',
       text: 'SUKU WILAYAH INDONESIA',
       imgSrc: '/suku.jpg',
       bgColor: 'bg-blue-500',
     },
     {
-      href: '',
+      href: '/karakteristik',
       text: 'KARAKTERISTIK PENDUDUK',
       imgSrc: '/karakteristik.jpg',
       bgColor: 'bg-yellow-500',
@@ -98,15 +98,18 @@ const HomeLink = () => {
             }}
             className={`relative flex items-center justify-center text-2xl lg:text-[2rem] uppercase rounded-lg py-8 px-12 ${link.bgColor} text-white w-full h-full max-w-lg`}
             style={{
-              backgroundImage: `url(${link.imgSrc})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
               perspective: '1000px',
               transformStyle: 'preserve-3d',
               width: '600px',
               height: '400px',
             }}
             transition={{ type: 'spring', stiffness: 300, damping: 20, duration: 2 }}>
+            <img
+              src={link.imgSrc}
+              alt={link.text}
+              loading="lazy"
+              className="absolute inset-0 w-full h-full object-cover rounded-lg"
+            />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
               <span className="text-xl lg:text-2xl">
                 {hoveredIndex === index ? (

@@ -1,12 +1,11 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import HomeLink from './components/HomeLink';
-import Loading from './components/Loading';
+import HomeLink from '../components/HomeLink';
+import Loading from '../components/Loading';
 import { motion } from 'framer-motion';
-import Typewriter from 'typewriter-effect';
-import BannerCarousel from './components/BannerCarousel';
-import Navbar from './components/Navbar';
+import BannerCarousel from '../components/BannerCarousel';
+import Navbar from '../components/Navbar';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
