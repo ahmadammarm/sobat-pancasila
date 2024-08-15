@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, {useState, useEffect} from 'react';
 import HomeButton from '../components/HomeButton';
@@ -18,6 +18,7 @@ const Page = () => {
   if (isLoading) {
     return <Loading />;
   }
+
   const imgSumatera = '/pulau/SUMATERA.png';
   const namaSumatera = 'Sumatera';
   const descSumatera =
@@ -70,9 +71,9 @@ const Page = () => {
               alt={namaSumatera}
               width="250"
               height="200"
-              className="cursor-pointer rounded-md"
+              className="cursor-pointer rounded-md hover:shadow-md"
             />
-            <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
               {descSumatera}
             </div>
           </div>
@@ -84,9 +85,9 @@ const Page = () => {
                   alt={data.nama}
                   width="250"
                   height="200"
-                  className="cursor-pointer rounded-md"
+                  className="cursor-pointer rounded-md hover:shadow-md"
                 />
-                <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+                <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                   {data.desc}
                 </div>
               </div>
@@ -99,9 +100,9 @@ const Page = () => {
                 alt={namaSulawesi}
                 width="200"
                 height="150"
-                className="cursor-pointer rounded-md mb-4"
+                className="cursor-pointer rounded-md hover:shadow-md mb-4"
               />
-              <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                 {descSulawesi}
               </div>
             </div>
@@ -111,9 +112,9 @@ const Page = () => {
                 alt={namaBaliNusa}
                 width="250"
                 height="200"
-                className="cursor-pointer rounded-md"
+                className="cursor-pointer rounded-md hover:shadow-md"
               />
-              <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                 {descBaliNusa}
               </div>
             </div>
@@ -124,9 +125,9 @@ const Page = () => {
               alt={namaMaluku}
               width="100"
               height="50"
-              className="cursor-pointer rounded-md mb-4"
+              className="cursor-pointer rounded-md hover:shadow-md mb-4"
             />
-            <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full w-[300px] h-[100px] z-10">
               {descMaluku}
             </div>
           </div>
@@ -136,9 +137,9 @@ const Page = () => {
               alt={namaPapua}
               width="300"
               height="200"
-              className="cursor-pointer rounded-md mb-4"
+              className="cursor-pointer rounded-md hover:shadow-md mb-4"
             />
-            <div className="absolute bottom-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
               {descPapua}
             </div>
           </div>
