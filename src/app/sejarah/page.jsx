@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import HomeButton from '../components/HomeButton';
 import Loading from '../components/Loading';
+import EmbedVideo from '../components/EmbedVideo';
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -23,15 +24,7 @@ const Page = () => {
     <div className="p-5">
       <HomeButton />
       <div className="flex flex-col justify-center items-center">
-        <iframe
-          className="rounded-md w-full h-[200px] sm:w-[400px] sm:h-[200px] md:w-[600px] md:h-[300px] lg:w-[1000px] lg:h-[500px]"
-          src="https://www.youtube.com/embed/Ogj7O0B03l8?si=KPNSesDPlQH8meMW"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <EmbedVideo />
         <div className="rounded-md bg-yellow-500 mt-5 p-5 w-full max-w-2xl">
           <p className="text-center font-bold text-lg">Penjelasan</p>
           <p className="mt-2">
