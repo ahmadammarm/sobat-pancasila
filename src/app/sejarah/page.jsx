@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react'
 import Loading from '../components/Loading';
 import SejarahLink from '../components/SejarahLink';
 
-const page = () => {
+const Page = () => {
 
   const [isLoading, setIsLoading] = useState(true);
 
@@ -30,4 +30,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

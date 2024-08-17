@@ -40,9 +40,6 @@ export default function Home() {
         className="text-lg lg:text-xl text-center mb-[6rem]">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptas?
       </motion.p>
-      <div>
-        
-      </div>
       <HomeLink/>
     </motion.main>
   );
