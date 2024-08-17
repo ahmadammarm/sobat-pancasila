@@ -7,7 +7,7 @@ import { ArrowBigDownIcon } from 'lucide-react';
 import BackButton from '@/app/components/BackButton';
 
 
-const Page = () => {
+const page = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -102,4 +102,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default page;
