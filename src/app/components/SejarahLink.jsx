@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
 
-const HomeLink = () => {
+const SejarahLink = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
 
@@ -22,28 +22,28 @@ const HomeLink = () => {
 
   const links = [
     {
-      href: '/peta',
-      text: 'PETA WILAYAH NKRI',
-      imgSrc: '/peta.jpg',
-      bgColor: 'bg-red-500',
+      href: '/sejarah/papua',
+      text: 'SEJARAH PAPUA',
+      imgSrc: '/sejarah/papua.jpg',
+      bgColor: 'bg-red-600',
     },
     {
-      href: '/sejarah',
-      text: 'SEJARAH WILAYAH INDONESIA',
-      imgSrc: '/prambanan.jpg',
-      bgColor: 'bg-green-500',
+      href: '/sejarah/timor-timur',
+      text: 'SEJARAH TIMOR TIMUR',
+      imgSrc: '/sejarah/timor-timur.jpg',
+      bgColor: 'bg-green-600',
     },
     {
-      href: '/suku',
-      text: 'SUKU WILAYAH INDONESIA',
-      imgSrc: '/suku.jpg',
-      bgColor: 'bg-blue-500',
+      href: '/sejarah/sejarah-revolusi',
+      text: 'Lorem Ipsum',
+      imgSrc: '/revolusi.jpg',
+      bgColor: 'bg-blue-600',
     },
     {
-      href: '/karakteristik',
-      text: 'KARAKTERISTIK PENDUDUK',
-      imgSrc: '/karakteristik.jpg',
-      bgColor: 'bg-yellow-500',
+      href: '/sejarah/sejarah-reformasi',
+      text: 'Lorem Ipsum',
+      imgSrc: '/reformasi.jpg',
+      bgColor: 'bg-yellow-600',
     },
   ];
 
@@ -75,7 +75,6 @@ const HomeLink = () => {
         lg:gap-y-12
         p-0
         md:p-4
-        mb-[5rem]
       ">
       {links.map((link, index) => (
         <Link key={index} href={link.href} passHref>
@@ -101,7 +100,7 @@ const HomeLink = () => {
               perspective: '1000px',
               transformStyle: 'preserve-3d',
               width: '600px',
-              height: '400px',
+              height: '200px',
             }}
             transition={{ type: 'spring', stiffness: 300, damping: 20, duration: 2 }}>
             <img
@@ -133,4 +132,4 @@ const HomeLink = () => {
   );
 };
 
-export default HomeLink;
+export default SejarahLink;
