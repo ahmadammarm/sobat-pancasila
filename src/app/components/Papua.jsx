@@ -77,7 +77,7 @@ const Papua = () => {
         <p>• Hatta berpendapat bahwa Indonesia belum siap untuk mendidik rakyat Papua menjadi bangsa yang merdeka, sehingga lebih baik masa depan Papua diserahkan kepada rakyat Papua sendiri.</p>
         <p>• Sukarno mendukung pandangan Yamin dan memperoleh banyak dukungan dari anggota lainnya.</p>
         <p>• Agus Salim dan Soetardjo mengingatkan agar permasalahan Papua tidak menjadi sumber pertikaian di antara para pendiri bangsa.</p>
-        <p>• Suara Yamin dan Sukarno mendapat dukungan terbanyak, yang melahirkan istilah "Sabang sampai Merauke," menandakan kesatuan wilayah Indonesia dari ujung barat hingga timur.</p>
+        <p>• Suara Yamin dan Sukarno mendapat dukungan terbanyak, yang melahirkan istilah Sabang sampai Merauke menandakan kesatuan wilayah Indonesia dari ujung barat hingga timur.</p>
       </p></div>
     </div>
   )
