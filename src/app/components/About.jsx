@@ -14,10 +14,10 @@ const About = () => {
                 
                 {/* Content Start */}
                 <div className='lg:w-1/2 text-center lg:text-left p-4'>
-                    <h2 className='text-slate-500 font-medium mb-4'>PELAJARI TENTANG KAMI</h2>
-                    <h1 className='text-4xl font-bold text-slate-700 mb-6'>Platform untuk Mendukung Pembelajaran dalam Mendalami Wilayah NKRI Indonesia</h1>
+                    <h2 className='text-slate-700 font-medium mb-4'>PELAJARI TENTANG KAMI</h2>
+                    <h1 className='text-4xl font-bold text-slate-800 mb-6'>Platform untuk Mendukung Pembelajaran dalam Mendalami Wilayah NKRI Indonesia</h1>
                     <p className='text-gray-700 mb-6'>
-                        Website kami merupakan platform yang menyediakan informasi seputar wilayah NKRI Indonesia. Kami menyediakan informasi seputar sejarah, peta, dan doa-dzikir harian yang dapat membantu anda dalam mendalami wilayah NKRI Indonesia.
+                        Website kami merupakan platform yang menyediakan informasi seputar wilayah NKRI Indonesia. Kami menyediakan informasi seputar sejarah, peta, dan lainnya yang dapat membantu anda dalam mendalami wilayah NKRI Indonesia.
                     </p>
                     <div className='flex items-center'>
                         <img src="/about-2.jpg" alt="lorem" className='w-30 h-24 rounded-md border-4 border-slate-600 mr-4' />

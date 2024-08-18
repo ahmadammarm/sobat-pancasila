@@ -3,9 +3,17 @@
 import React, { useState, useEffect } from 'react'
 import Loading from '../components/Loading';
 import SejarahLink from '../components/SejarahLink';
-import HomeButton from '../components/HomeButton';
 import Copyright from '../components/Copyright';
 import Navbar from '../components/Navbar';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb"
+import HomeButton from '../components/HomeButton';
 
 const Page = () => {
 
@@ -26,8 +34,22 @@ const Page = () => {
   return (
     <>
     <Navbar />
+    <HomeButton />
+    <div className="ml-5 mb-10">
+    <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>Sejarah</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+    </div>
     <div className="p-4">
-      <h1 className="text-4xl font-bold text-center mt-24 mb-5">
+      <h1 className="text-4xl font-bold text-center mt-10 mb-5">
         SEJARAH WILAYAH INDONESIA
       </h1>
       <p

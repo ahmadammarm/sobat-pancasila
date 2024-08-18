@@ -5,6 +5,14 @@ import HomeButton from '../components/HomeButton';
 import Loading from '../components/Loading';
 import Copyright from '../components/Copyright';
 import Navbar from '../components/Navbar';
+import {
+  Breadcrumb,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from "@/components/ui/breadcrumb"
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -63,6 +71,19 @@ const Page = () => {
     <>
     <Navbar />
       <HomeButton />
+      <div className="ml-5 mb-20">
+          <Breadcrumb>
+            <BreadcrumbList>
+              <BreadcrumbItem>
+                <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
+              </BreadcrumbItem>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbPage>Peta</BreadcrumbPage>
+              </BreadcrumbItem>
+            </BreadcrumbList>
+          </Breadcrumb>
+        </div>
       <h1 className="text-4xl font-bold text-center mt-10">
         PETA WILAYAH NKRI
       </h1>
