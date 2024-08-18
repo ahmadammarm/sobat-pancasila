@@ -5,6 +5,7 @@ import Loading from '../components/Loading';
 import SejarahLink from '../components/SejarahLink';
 import HomeButton from '../components/HomeButton';
 import Copyright from '../components/Copyright';
+import Navbar from '../components/Navbar';
 
 const Page = () => {
 
@@ -23,9 +24,10 @@ const Page = () => {
   }
   
   return (
+    <>
+    <Navbar />
     <div className="p-4">
-    <HomeButton />
-      <h1 className="text-4xl font-bold text-center mt-10 mb-5">
+      <h1 className="text-4xl font-bold text-center mt-24 mb-5">
         SEJARAH WILAYAH INDONESIA
       </h1>
       <p
@@ -36,6 +38,7 @@ const Page = () => {
       <SejarahLink />
       <Copyright />
     </div>
+    </>
   )
 }
 

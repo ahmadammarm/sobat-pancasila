@@ -4,6 +4,7 @@ import React, {useState, useEffect} from 'react';
 import HomeButton from '../components/HomeButton';
 import Loading from '../components/Loading';
 import Copyright from '../components/Copyright';
+import Navbar from '../components/Navbar';
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -60,6 +61,7 @@ const Page = () => {
 
   return (
     <>
+    <Navbar />
       <HomeButton />
       <h1 className="text-4xl font-bold text-center mt-10">
         PETA WILAYAH NKRI

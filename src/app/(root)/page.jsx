@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import BannerCarousel from '../components/BannerCarousel';
 import Navbar from '../components/Navbar';
 import Copyright from '../components/Copyright';
+import About from '../components/About';
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -26,19 +27,11 @@ export default function Home() {
   return (
     <motion.main
       className="flex min-h-screen flex-col items-center justify-between overflow-hidden">
-      <motion.h1
-        initial={{ opacity: 0, scale: 0.8 }} 
-        animate={{ opacity: 1, scale: 1 }}   
-        className="text-[3rem] font-bold lg:text-[4rem] lg:font-extrabold text-center mt-[7rem]">
-        SOBAT PANCASILA
-      </motion.h1>
-      <motion.p
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 4 }}
-        className="text-lg lg:text-xl text-center mb-[6rem]">
-        Platform belajar seputar sejarah Indonesia yang menyenangkan dan interaktif.
-      </motion.p>
+      <Navbar />
+      <BannerCarousel />
+      <About />
+      <h1 className="text-center text-lg" id="pembelajaran">──── Fitur Pembelajaran ────</h1>
+      <h1 className="text-center text-4xl mb-16 font-bold">Macam-macam Fitur Pembelajaran</h1>
       <HomeLink/>
       <Copyright />
     </motion.main>

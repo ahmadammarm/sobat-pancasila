@@ -17,28 +17,10 @@ const MobileNavLink = ({ href, children }) => (
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-yellow-500 shadow-lg' : 'bg-transparent'
-    }`}>
+    <nav className="fixed w-full z-50 transition-all duration-300 bg-slate-900 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
@@ -48,16 +30,15 @@ const Navbar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <NavLink href="/">Home</NavLink>
-              <NavLink href="/about">About</NavLink>
-              {/* <NavLink href="/services">Services</NavLink>
-              <NavLink href="/contact">Contact</NavLink> */}
+              <NavLink href="/">Beranda</NavLink>
+              <NavLink href="#about">Tentang Kami</NavLink>
+              <NavLink href="#pembelajaran">Pembelajaran</NavLink>
             </div>
           </div>
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-yellow-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-yellow-800 focus:ring-white"
+              className="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-yellow-800 focus:ring-white"
             >
               <span className="sr-only">Open main menu</span>
               {isOpen ? (
