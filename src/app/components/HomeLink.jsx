@@ -4,6 +4,7 @@ import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
+import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 
 const HomeLink = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -111,20 +112,11 @@ const HomeLink = () => {
               className="absolute inset-0 w-full h-full object-cover rounded-lg"
             />
             <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center rounded-lg">
-              <span className="text-xl lg:text-2xl">
-                {hoveredIndex === index ? (
-                  <Typewriter
-                    options={{
-                      strings: [link.text],
-                      autoStart: true,
-                      loop: true,
-                      delay: 50,
-                    }}
-                  />
-                ) : (
-                  link.text
-                )}
-              </span>
+              <Card>
+                <CardHeader>
+                  <CardTitle>{link.text}</CardTitle>
+                </CardHeader>
+              </Card>
             </div>
           </motion.div>
         </Link>

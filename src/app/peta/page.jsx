@@ -3,6 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import HomeButton from '../components/HomeButton';
 import Loading from '../components/Loading';
+import Copyright from '../components/Copyright';
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -144,6 +145,7 @@ const Page = () => {
             </div>
           </div>
         </div>
+        <Copyright />
       </div>
     </>
   );

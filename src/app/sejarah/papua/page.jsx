@@ -5,6 +5,7 @@ import Loading from '@/app/components/Loading';
 import EmbedVideo from '@/app/components/EmbedVideo';
 import BackButton from '@/app/components/BackButton';
 import Papua from '@/app/components/Papua';
+import Copyright from '@/app/components/Copyright';
 
 
 const Page = () => {
@@ -25,12 +26,13 @@ const Page = () => {
   return (
     <div className="p-5">
       <BackButton />
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center mb-10">
         <EmbedVideo />
       </div>
       <div className="flex flex-col justify-center items-center">
         <Papua />
       </div>
+      <Copyright />
     </div>
   );
 };
