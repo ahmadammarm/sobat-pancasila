@@ -94,7 +94,7 @@ const Page = () => {
               </div>
             ))}
           </div>
-          <div className="flex flex-col mt-10 ml-4 space-y-4">
+          <div className="flex flex-col mt-5 ml-4 space-y-4">
             <div className="relative group">
               <img
                 src={imgSulawesi}
@@ -145,8 +145,8 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <Copyright />
       </div>
+      <Copyright />
     </>
   );
 };
