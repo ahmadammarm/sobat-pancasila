@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 // import { ModeToggle } from "./ModeToggle";
-
+// 
 const NavLink = ({ href, children, onClick }) => (
   <Link
     href={href}
