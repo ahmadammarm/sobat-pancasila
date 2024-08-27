@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-// import { ModeToggle } from "./ModeToggle";
+import { ModeToggle } from "./ModeToggle";
 // 
 const NavLink = ({ href, children, onClick }) => (
   <Link
@@ -43,7 +43,7 @@ const Navbar = () => {
               <NavLink href="/">Beranda</NavLink>
               <NavLink href="/#about">Tentang Kami</NavLink>
               <NavLink href="/#pembelajaran">Pembelajaran</NavLink>
-              {/* <ModeToggle /> */}
+              <ModeToggle />
             </div>
           </div>
           <div className="md:hidden">
