@@ -24,7 +24,7 @@ const HomeLink = () => {
   const links = [
     {
       href: '/peta',
-      text: 'PETA WILAYAH NKRI',
+      text: 'PETA WILAYAH INDONESIA',
       imgSrc: '/peta.jpg',
       bgColor: 'bg-red-500',
     },
@@ -36,13 +36,13 @@ const HomeLink = () => {
     },
     {
       href: '/suku',
-      text: 'SUKU WILAYAH INDONESIA',
+      text: 'AGAMA DAN KEPERCAYAAN INDONESIA',
       imgSrc: '/suku.jpg',
       bgColor: 'bg-blue-500',
     },
     {
       href: '/karakteristik',
-      text: 'KARAKTERISTIK PENDUDUK',
+      text: 'BUDAYA INDONESIA',
       imgSrc: '/karakteristik.jpg',
       bgColor: 'bg-yellow-500',
     },

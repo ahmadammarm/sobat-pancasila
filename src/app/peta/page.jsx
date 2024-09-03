@@ -75,17 +75,17 @@ const Page = () => {
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
+                <BreadcrumbLink href="/"><span className="text-lg">Beranda</span></BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>Peta</BreadcrumbPage>
+                <BreadcrumbPage><span className="text-lg">Peta</span></BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
         </div>
       <h1 className="text-4xl font-bold text-center mt-10">
-        PETA WILAYAH NKRI
+        PETA WILAYAH INDONESIA SAAT INI
       </h1>
       <div className="flex items-center justify-center min-h-screen p-4">
         <div className="flex flex-col md:flex-row">
@@ -95,9 +95,9 @@ const Page = () => {
               alt={namaSumatera}
               width="250"
               height="200"
-              className="cursor-pointer rounded-md hover:shadow-md"
+              className="cursor-pointer rounded-md"
             />
-            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
               {descSumatera}
             </div>
           </div>
@@ -109,9 +109,9 @@ const Page = () => {
                   alt={data.nama}
                   width="250"
                   height="200"
-                  className="cursor-pointer rounded-md hover:shadow-md"
+                  className="cursor-pointer rounded-md"
                 />
-                <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
+                <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                   {data.desc}
                 </div>
               </div>
@@ -124,9 +124,9 @@ const Page = () => {
                 alt={namaSulawesi}
                 width="200"
                 height="150"
-                className="cursor-pointer rounded-md hover:shadow-md mb-4"
+                className="cursor-pointer rounded-md mb-4"
               />
-              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
+              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                 {descSulawesi}
               </div>
             </div>
@@ -136,9 +136,9 @@ const Page = () => {
                 alt={namaBaliNusa}
                 width="250"
                 height="200"
-                className="cursor-pointer rounded-md hover:shadow-md"
+                className="cursor-pointer rounded-md"
               />
-              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
+              <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
                 {descBaliNusa}
               </div>
             </div>
@@ -149,9 +149,9 @@ const Page = () => {
               alt={namaMaluku}
               width="100"
               height="50"
-              className="cursor-pointer rounded-md hover:shadow-md mb-4"
+              className="cursor-pointer rounded-md mb-4"
             />
-            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full w-[300px] h-[100px] z-10">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full w-[300px] h-[100px] z-10">
               {descMaluku}
             </div>
           </div>
@@ -161,9 +161,9 @@ const Page = () => {
               alt={namaPapua}
               width="300"
               height="200"
-              className="cursor-pointer rounded-md hover:shadow-md mb-4"
+              className="cursor-pointer rounded-md mb-4"
             />
-            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-gray-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
+            <div className="absolute top-0 left-0 right-0 invisible group-hover:visible p-2 bg-yellow-800 text-white text-sm rounded-lg shadow-lg transform -translate-y-full">
               {descPapua}
             </div>
           </div>

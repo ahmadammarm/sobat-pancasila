@@ -5,17 +5,17 @@ import { useState, useEffect } from 'react';
 const bannerData = [
   {
     image: '/Wayang-Kulit-shutterstock_732881719-1024x682.webp',
-    title: 'SOBAT PANCASILA',
+    title: 'LENTARA',
     description: 'Platform belajar seputar sejarah Indonesia yang menyenangkan dan interaktif.',
   },
   {
     image: '/bromo.jpg',
-    title: 'SOBAT PANCASILA',
+    title: 'LENTARA',
     description: 'Platform belajar seputar sejarah Indonesia yang menyenangkan dan interaktif.',
   },
   {
     image: '/indonesia.jpg',
-    title: 'SOBAT PANCASILA',
+    title: 'LENTARA',
     description: 'Platform belajar seputar sejarah Indonesia yang menyenangkan dan interaktif.',
   },
 ];

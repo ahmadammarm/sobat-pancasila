@@ -30,8 +30,8 @@ export default function Home() {
       <Navbar />
       <BannerCarousel />
       <About />
-      <h1 className="text-center text-lg text-slate-700" id="pembelajaran">──── Fitur Pembelajaran ────</h1>
-      <h1 className="text-center text-4xl mb-16 font-bold text-slate-800">Macam-macam Fitur Pembelajaran</h1>
+      <h1 className="text-center text-lg text-yellow-700" id="pembelajaran">──── Fitur Pembelajaran ────</h1>
+      <h1 className="text-center text-4xl mb-16 font-bold text-slate-800">Ragam Fitur Pembelajaran</h1>
       <HomeLink/>
       <Copyright />
     </motion.main>

@@ -39,11 +39,11 @@ const Page = () => {
     <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
+                <BreadcrumbLink href="/"><span className="text-lg">Beranda</span></BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>Sejarah</BreadcrumbPage>
+                <BreadcrumbPage><span className="text-lg">Sejarah</span></BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>

@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Loading from '@/app/components/Loading';
-import EmbedVideo from '@/app/components/EmbedVideo';
 import Papua from '@/app/components/Papua';
 import Copyright from '@/app/components/Copyright';
 import {
@@ -14,6 +13,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import Navbar from '@/app/components/Navbar';
+import EmbedVideoPapua from '@/app/components/EmbedVideoPapua';
 
 
 
@@ -40,21 +40,21 @@ const Page = () => {
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem>
-                <BreadcrumbLink href="/">Beranda</BreadcrumbLink>
+                <BreadcrumbLink href="/"><span className="text-lg">Beranda</span></BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbLink href="/sejarah">Sejarah</BreadcrumbLink>
+                <BreadcrumbLink href="/sejarah"><span className="text-lg">Sejarah</span></BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator />
               <BreadcrumbItem>
-                <BreadcrumbPage>Papua</BreadcrumbPage>
+                <BreadcrumbPage><span className="text-lg">Papua</span></BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
         </div>
         <div className="flex flex-col justify-center items-center mb-10 mt-20">
-          <EmbedVideo />
+          <EmbedVideoPapua />
         </div>
         <div className="flex flex-col justify-center items-center">
           <Papua />
