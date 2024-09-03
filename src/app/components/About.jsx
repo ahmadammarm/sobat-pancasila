@@ -17,7 +17,7 @@ const About = () => {
                     <h2 className='text-yellow-700 font-medium mb-4'>PELAJARI TENTANG KAMI</h2>
                     <h1 className='text-4xl font-bold text-slate-800 mb-6'>Platform untuk Mendukung Pembelajaran dalam Mendalami Wilayah NKRI Indonesia</h1>
                     <p className='text-gray-700 mb-6'>
-                        <span className="font-bold text-yellow-800">Lentara</span> merupakan website yang menyediakan informasi seputar wilayah NKRI Indonesia. <span className="font-bold text-yellow-800">Lentara</span> berasal dari kalimat <span className="italic">'Learn About Nusantara'</span>. <span className="font-bold text-yellow-800">Lentara</span> menyediakan informasi seputar sejarah, peta, dan lainnya yang dapat membantu Anda dalam mendalami wilayah NKRI Indonesia.
+                        <span className="font-bold text-yellow-800">Lentara</span> merupakan website yang menyediakan informasi seputar wilayah NKRI Indonesia. <span className="font-bold text-yellow-800">Lentara</span> berasal dari kalimat <span className="italic">&quot;Learn About Nusantara&quot;</span>. <span className="font-bold text-yellow-800">Lentara</span> menyediakan informasi seputar sejarah, peta, dan lainnya yang dapat membantu Anda dalam mendalami wilayah NKRI Indonesia.
                     </p>
                     <div className='flex items-center'>
                         <img src="/about-2.jpg" alt="lorem" className='w-30 h-24 rounded-md border-4 border-yellow-600 mr-4' />
