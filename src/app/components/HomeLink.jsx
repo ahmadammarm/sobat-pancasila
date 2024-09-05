@@ -35,8 +35,8 @@ const HomeLink = () => {
       bgColor: 'bg-green-500',
     },
     {
-      href: '/suku',
-      text: 'AGAMA DAN KEPERCAYAAN INDONESIA',
+      href: '/agama',
+      text: 'AGAMA & KEPERCAYAAN INDONESIA',
       imgSrc: '/suku.jpg',
       bgColor: 'bg-blue-500',
     },

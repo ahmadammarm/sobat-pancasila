@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-white font-bold text-xl">
+            <Link href="/" className="text-white font-bold text-xl" style={{fontFamily: 'Pacifico, cursive'}}>
               Lentara
             </Link>
           </div>
@@ -43,6 +43,7 @@ const Navbar = () => {
               <NavLink href="/">Beranda</NavLink>
               <NavLink href="/#about">Tentang Kami</NavLink>
               <NavLink href="/#pembelajaran">Pembelajaran</NavLink>
+              <NavLink href="/ai">Tanya AI</NavLink>
               {/* <ModeToggle /> */}
             </div>
           </div>
@@ -101,6 +102,9 @@ const Navbar = () => {
             </MobileNavLink>
             <MobileNavLink href="/#pembelajaran" onClick={closeMenu}>
               Pembelajaran
+            </MobileNavLink>
+            <MobileNavLink href="/ai" onClick={closeMenu}>
+              Tanya AI
             </MobileNavLink>
           </div>
         </div>
