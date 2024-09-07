@@ -39,6 +39,9 @@ const Navbar = () => {
               <Link href="/" className="text-white font-bold text-xl" style={{fontFamily: 'Pacifico, cursive'}}>
                 <Image src="/logo2.png" alt="logo" width={60} height={60} />
               </Link>
+              <Link href="/" className="text-white mt-3 font-bold text-2xl" style={{fontFamily: 'Pacifico, cursive'}}>
+                Lentara
+              </Link>
             </div>
           </div>
           <div className="hidden md:block">
