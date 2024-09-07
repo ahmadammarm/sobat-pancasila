@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import Navbar from '@/app/components/Navbar';
 import EmbedVideoPapua from '@/app/components/EmbedVideoPapua';
+// import Papua from '@/app/components/book/papua/Papua';
 
 
 

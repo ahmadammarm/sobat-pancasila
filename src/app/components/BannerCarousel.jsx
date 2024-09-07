@@ -67,7 +67,7 @@ export default function BannerCarousel() {
           </div>
         </div>
       ))}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-4">
+      {/* <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex space-x-4">
         {bannerData.map((_, index) => (
           <button
             key={index}
@@ -77,7 +77,7 @@ export default function BannerCarousel() {
             onClick={() => setCurrentIndex(index)}
           />
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }

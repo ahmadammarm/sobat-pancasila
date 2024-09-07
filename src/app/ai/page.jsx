@@ -13,7 +13,6 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
 import HomeButton from '../components/HomeButton';
-import ImageSlider from '../components/image-slider/ImageSlider';
 
 const Page = () => {
 
@@ -50,14 +49,14 @@ const Page = () => {
     </div>
     <div className="p-4">
       <h1 className="text-4xl font-bold text-center mt-10 mb-5">
-        AGAMA & KEPERCAYAAN DI INDONESIA
+        LENTARA AI
       </h1>
       <p
         className="text-lg lg:text-xl text-center mb-[6rem]">
         
-        Yuk kenali lebih dekat agama dan kepercayaan di Indonesia.
+        Yuk tanya lebih dekat dengan Lentara AI.
       </p>
-        <ImageSlider />
+        {/* <ImageSlider /> */}
         <Copyright />
     </div>
     </>

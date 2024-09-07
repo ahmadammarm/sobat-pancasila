@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
-import { ArrowBigDownIcon } from 'lucide-react'
+import { CircleAlert } from 'lucide-react'
+// import { ArrowBigDownIcon } from 'lucide-react'
 import React from 'react'
 
 const Papua = () => {
@@ -106,7 +107,7 @@ const Papua = () => {
           </p>
           <Dialog>
             <DialogTrigger asChild>
-              <Button className="mt-auto text-yellow-900 text-lg" variant="outline">Selengkapnya</Button>
+              <Button className="mt-auto text-yellow-900 text-lg" variant="outline"><CircleAlert/>Selengkapnya</Button>
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>

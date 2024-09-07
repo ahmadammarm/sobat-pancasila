@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { ModeToggle } from "./ModeToggle";
+import Image from "next/image";
 // 
 const NavLink = ({ href, children, onClick }) => (
   <Link
@@ -34,16 +35,18 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-white font-bold text-xl" style={{fontFamily: 'Pacifico, cursive'}}>
-              Lentara
-            </Link>
+            <div className="flex flex-row">
+              <Link href="/" className="text-white font-bold text-xl" style={{fontFamily: 'Pacifico, cursive'}}>
+                <Image src="/logo2.png" alt="logo" width={60} height={60} />
+              </Link>
+            </div>
           </div>
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <NavLink href="/">Beranda</NavLink>
               <NavLink href="/#about">Tentang Kami</NavLink>
               <NavLink href="/#pembelajaran">Pembelajaran</NavLink>
-              <NavLink href="/ai">Tanya AI</NavLink>
+              {/* <NavLink href="/ai">Lentara AI</NavLink> */}
               {/* <ModeToggle /> */}
             </div>
           </div>
@@ -103,9 +106,9 @@ const Navbar = () => {
             <MobileNavLink href="/#pembelajaran" onClick={closeMenu}>
               Pembelajaran
             </MobileNavLink>
-            <MobileNavLink href="/ai" onClick={closeMenu}>
-              Tanya AI
-            </MobileNavLink>
+            {/* <MobileNavLink href="/ai" onClick={closeMenu}>
+              Lentara AI
+            </MobileNavLink> */}
           </div>
         </div>
       )}
