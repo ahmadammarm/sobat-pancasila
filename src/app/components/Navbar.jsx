@@ -2,9 +2,8 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
-import { ModeToggle } from "./ModeToggle";
 import Image from "next/image";
-// 
+
 const NavLink = ({ href, children, onClick }) => (
   <Link
     href={href}
@@ -28,6 +27,7 @@ const MobileNavLink = ({ href, children, onClick }) => (
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Function to close the menu
   const closeMenu = () => setIsOpen(false);
 
   return (
@@ -36,6 +36,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex flex-row">
+              {/* Logo and Title */}
               <Link href="/" className="text-white font-bold text-xl" style={{fontFamily: 'Pacifico, cursive'}}>
                 <Image src="/logo2.png" alt="logo" width={60} height={60} />
               </Link>
@@ -44,15 +45,15 @@ const Navbar = () => {
               </Link>
             </div>
           </div>
+          {/* Desktop Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <NavLink href="/">Beranda</NavLink>
               <NavLink href="/#about">Tentang Kami</NavLink>
               <NavLink href="/#pembelajaran">Pembelajaran</NavLink>
-              {/* <NavLink href="/ai">Lentara AI</NavLink> */}
-              {/* <ModeToggle /> */}
             </div>
           </div>
+          {/* Mobile Menu Button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -97,6 +98,7 @@ const Navbar = () => {
         </div>
       </div>
 
+      {/* Mobile Links */}
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-yellow-800">
@@ -109,9 +111,6 @@ const Navbar = () => {
             <MobileNavLink href="/#pembelajaran" onClick={closeMenu}>
               Pembelajaran
             </MobileNavLink>
-            {/* <MobileNavLink href="/ai" onClick={closeMenu}>
-              Lentara AI
-            </MobileNavLink> */}
           </div>
         </div>
       )}

@@ -13,6 +13,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb"
+import HeaderBanner from '../components/HeaderBanner';
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -70,22 +71,9 @@ const Page = () => {
   return (
     <>
     <Navbar />
-      <HomeButton />
-      <div className="ml-5 mb-20">
-          <Breadcrumb>
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbLink href="/"><span className="text-lg">Beranda</span></BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbPage><span className="text-lg">Peta</span></BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
-        </div>
-      <h1 className="text-4xl font-bold text-center mt-10">
-        PETA WILAYAH INDONESIA SAAT INI
+      <HeaderBanner title="PETA WILAYAH INDONESIA" subtitle="Peta" link="Beranda" href="/" />
+      <h1 className="text-4xl font-bold text-center mt-24">
+        Peta Wilayah Indonesia Saat Ini
       </h1>
       <div className="flex items-center justify-center min-h-screen p-4">
         <div className="flex flex-col md:flex-row">

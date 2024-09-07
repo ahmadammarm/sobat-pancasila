@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/breadcrumb"
 import HomeButton from '../components/HomeButton';
 import ImageSlider from '../components/image-slider/ImageSlider';
+import HeaderBanner from '../components/HeaderBanner';
 
 const Page = () => {
 
@@ -34,22 +35,9 @@ const Page = () => {
   return (
     <>
     <Navbar />
-    <HomeButton />
-    <div className="ml-5 mb-10">
-    <Breadcrumb>
-            <BreadcrumbList>
-              <BreadcrumbItem>
-                <BreadcrumbLink href="/"><span className="text-lg">Beranda</span></BreadcrumbLink>
-              </BreadcrumbItem>
-              <BreadcrumbSeparator />
-              <BreadcrumbItem>
-                <BreadcrumbPage><span className="text-lg">Agama</span></BreadcrumbPage>
-              </BreadcrumbItem>
-            </BreadcrumbList>
-          </Breadcrumb>
-    </div>
+    <HeaderBanner title="AGAMA & KEPERCAYAAN DI INDONESIA" subtitle="Agama" link="Beranda" href="/" />
     <div className="p-4">
-      <h1 className="text-4xl font-bold text-center mt-10 mb-5">
+      <h1 className="text-4xl font-bold text-center mt-24 mb-5">
         AGAMA & KEPERCAYAAN DI INDONESIA
       </h1>
       <p
