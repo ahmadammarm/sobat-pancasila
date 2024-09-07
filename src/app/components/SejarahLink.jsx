@@ -35,15 +35,15 @@ const SejarahLink = () => {
       bgColor: 'bg-green-600',
     },
     {
-      href: '/sejarah/sejarah-revolusi',
-      text: 'Lorem Ipsum',
-      imgSrc: '/revolusi.jpg',
+      href: '/sejarah/aceh',
+      text: 'SEJARAH ACEH',
+      imgSrc: '/sejarah//aceh.jpg',
       bgColor: 'bg-blue-600',
     },
     {
-      href: '/sejarah/sejarah-reformasi',
-      text: 'Lorem Ipsum',
-      imgSrc: '/reformasi.jpg',
+      href: '/sejarah/ikn',
+      text: 'SEJARAH IKN',
+      imgSrc: '/sejarah/ikn.jpg',
       bgColor: 'bg-yellow-600',
     },
   ];
