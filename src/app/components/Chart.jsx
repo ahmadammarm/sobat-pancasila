@@ -106,13 +106,13 @@ export function Chart() {
                                     • Persentase persebaran: 86.93%
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Salam: Assalamu'alaikum
+                                    • Salam: &quot;Assalamu'alaikum&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Artinya: "Semoga keselamatan tercurah kepada kamu."
+                                    • Artinya: &quot;Semoga keselamatan tercurah kepada kamu.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Jawaban dari salam: Wa'alaikumussalam (Dan semoga keselamatan tercurah juga kepadamu).
+                                    • Jawaban dari salam: &quot;Wa'alaikumussalam&quot; (Dan semoga keselamatan tercurah juga kepadamu).
                                 </p>
                             </div>
                         </DialogContent>
@@ -137,7 +137,7 @@ export function Chart() {
                                     • Salam: Shalom
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Artinya: "Damai sejahtera."
+                                    • Artinya: &quot;Damai sejahtera.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
                                     • Penggunaan: Salam ini sering digunakan dalam konteks gereja dan pertemuan umat Kristen.
@@ -190,7 +190,7 @@ export function Chart() {
                                     • Salam: Om Swastiastu
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Artinya: "Semoga semuanya berada dalam keadaan baik atas rahmat Tuhan."
+                                    • Artinya: &quot;Semoga semuanya berada dalam keadaan baik atas rahmat Tuhan.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
                                     • Penggunaan: Ucapan ini biasa digunakan di Bali dan dijawab dengan Om Shanti, Shanti, Shanti Om yang berarti "Damai, damai, damai."
@@ -218,7 +218,7 @@ export function Chart() {
                                     • Salam: Namo Buddhaya
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Artinya: "Salam kepada Buddha."
+                                    • Artinya: &quot;Salam kepada Buddha.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
                                     • Penggunaan: Digunakan sebagai salam atau penghormatan.
