@@ -85,6 +85,14 @@ const ImageSlider = () => {
             </div>
           </div>
         </div>
+        <div className="item" style={{ backgroundImage: 'url(/agama/kejawen.jpeg)' }}>
+          <div className="content">
+            <div className="name">Kepercayaan Lainnya</div>
+            <div className="des">
+                Kepercayaan Lainnya adalah agama yang tidak tergolong dalam agama-agama besar di Indonesia. Kepercayaan ini memiliki kepercayaan dan ajaran yang berbeda-beda.
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="button">

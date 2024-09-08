@@ -19,9 +19,9 @@ const About = () => {
                     <p className='text-gray-700 mb-6 font-serif'>
                         <span className="font-bold text-yellow-800">Lentara</span> merupakan website yang menyediakan informasi seputar wilayah NKRI Indonesia. <span className="font-bold text-yellow-800">Lentara</span> berasal dari kalimat <span className="italic">&quot;Learn About Nusantara&quot;</span>. <span className="font-bold text-yellow-800">Lentara</span> menyediakan informasi seputar sejarah, peta, dan lainnya yang dapat membantu Anda dalam mendalami wilayah NKRI Indonesia.
                     </p>
-                    <div className='flex items-center'>
-                        <img src="/banner2.jpg" alt="lorem" className='w-30 h-24 rounded-md border-4 border-yellow-600 mr-4' />
-                        <ul className='text-gray-700'>
+                    <div className='flex flex-col md:flex-row'>
+                        <img src="/banner2.jpg" alt="lorem" className='w-full h-full md:w-36 md:h-24 rounded-md border-4 border-yellow-600 mr-4' />
+                        <ul className='text-gray-700 items-start mt-5 md:mt-0'>
                             <li className='mb-2'>✔ Peta Interaktif</li>
                             <li className='mb-2'>✔ Pembelajaran Sejarah Dilengkapi dengan Video</li>
                             <li className='mb-2'>✔ Suku</li>

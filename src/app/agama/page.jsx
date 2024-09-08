@@ -4,17 +4,10 @@ import React, { useState, useEffect } from 'react'
 import Loading from '../components/Loading';
 import Copyright from '../components/Copyright';
 import Navbar from '../components/Navbar';
-import {
-  Breadcrumb,
-  BreadcrumbItem,
-  BreadcrumbLink,
-  BreadcrumbList,
-  BreadcrumbPage,
-  BreadcrumbSeparator,
-} from "@/components/ui/breadcrumb"
-import HomeButton from '../components/HomeButton';
 import ImageSlider from '../components/image-slider/ImageSlider';
 import HeaderBanner from '../components/HeaderBanner';
+import { Chart } from '../components/Chart';
+import Kepercayaan from '../components/Kepercayaan';
 
 const Page = () => {
 
@@ -46,6 +39,8 @@ const Page = () => {
         Yuk kenali lebih dekat agama dan kepercayaan di Indonesia.
       </p>
         <ImageSlider />
+        <Chart />
+        <Kepercayaan />
         <Copyright />
     </div>
     </>

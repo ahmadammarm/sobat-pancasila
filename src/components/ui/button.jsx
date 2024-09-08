@@ -18,6 +18,13 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        islam: "bg-[#4CAF50] text-white hover:bg-[#388E3C]", // Warna sesuai dengan chartData
+  kristen: "bg-[#2196F3] text-white hover:bg-[#1976D2]", // Warna sesuai dengan chartData
+  katolik: "bg-[#FF9800] text-white hover:bg-[#F57C00]", // Warna sesuai dengan chartData
+  hindu: "bg-[#FFC107] text-white hover:bg-[#FFA000]", // Warna sesuai dengan chartData
+  buddha: "bg-[#9C27B0] text-white hover:bg-[#7B1FA2]", // Warna sesuai dengan chartData
+  konghuchu: "bg-[#E91E63] text-white hover:bg-[#C2185B]", // Warna sesuai dengan chartData
+  kepercayaan: "bg-[#795548] text-white hover:bg-[#6D4C41]", // Warna sesuai dengan chartData
       },
       size: {
         default: "h-10 px-4 py-2",

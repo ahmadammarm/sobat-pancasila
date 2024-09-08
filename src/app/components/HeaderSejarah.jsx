@@ -6,7 +6,7 @@ const HeaderSejarah = (props) => {
             <div className="relative w-full h-[500px] md:h-[400px] lg:h-[500px] overflow-hidden">
                 <div
                     className="absolute top-0 left-0 w-full h-full parallax"
-                    style={{ backgroundImage: `url(${props.bgImage})`, backgroundSize: 'cover', backgroundAttachment: 'fixed' }}
+                    style={{ backgroundImage: `url(${props.bgImage})`, backgroundSize: 'cover', backgroundAttachment: 'fixed', backgroundPosition: 'center' }}
                 >
                     <div className="absolute inset-0 bg-black bg-opacity-80"></div>
                     <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">

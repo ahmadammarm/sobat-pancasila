@@ -24,7 +24,7 @@ const Papua = () => {
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>
-                <DialogTitle className="text-white">1. Pasca Konferensi Meja Bundar (KMB)</DialogTitle>
+                <DialogTitle className="text-white text-xl">1. Pasca Konferensi Meja Bundar (KMB)</DialogTitle>
               </DialogHeader>
               <p className="text-white">Awal kemunculan Papua ketika Konferensi Meja Bundar (KMB) pada tanggal 27 Desember 1949. Namun, KMB menyisakan konflik antara Indonesia dan Belanda. Kedua negara tersebut merasa berhak akan tanah Papua atau Irian Barat. Belanda menginginkan Papua berdiri menjadi negara sendiri di bawah kekuasaan Kerajaan Belanda. Alasannya karena penduduk asli Papua memiliki perbedaan etnis dan ras dengan penduduk Indonesia umumnya yaitu Melanesia. Sebaliknya, Indonesia menginginkan bekas wilayah jajahan Belanda diserahkan. Untuk mengatasi konflik tersebut, telah dilakukan beberapa kali perundingan tetapi masih belum juga menemukan kesepakatan. Karena belanda bersikukuh ingin mempertahankan Papua, akhirnya masalah ini dibawa ke forum Perserikatan Bangsa-Bangsa (PBB).</p>
             </DialogContent>
@@ -44,7 +44,7 @@ const Papua = () => {
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>
-                <DialogTitle className="text-white">2. Usulan Belanda di PBB dan Pembentukan Komando Mandala</DialogTitle>
+                <DialogTitle className="text-white text-xl">2. Usulan Belanda di PBB dan Pembentukan Komando Mandala</DialogTitle>
               </DialogHeader>
               <p className="text-white">
               Dalam Sidang Umum PBB bulan September 1961, Menteri Luar Negeri Belanda, Joseph Antonine Hubert Luns mengajukan usulan agar Papua atau Irian Barat berada di bawah naungan PBB. Namun, usulan tersebut ditolak oleh Majelis Umum PBB. Presiden Soekarno kemudian membentuk Komando Mandala untuk merebut Papua pada 2 Januari 1962. Dia menunjuk Mayor Jenderal Soeharto sebagai komandan operasi militer tersebut. Setelah berbagai upaya dilakukan, Belanda akhirnya bersedia untuk berunding kembali dengan Indonesia. 
@@ -66,7 +66,7 @@ const Papua = () => {
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>
-                <DialogTitle className="text-white">3. Perjanjian New York dan Penyerahan Papua ke UNTEA</DialogTitle>
+                <DialogTitle className="text-white text-xl">3. Perjanjian New York dan Penyerahan Papua ke UNTEA</DialogTitle>
               </DialogHeader>
               <p className="text-white">Pada 15 Agustus 1962, disepakati Perjanjian New York antara Belanda dan Indonesia yang menyatakan bahwa Belanda akan menyerahkan kekuasaannya atas Papua kepada United nation Temporary Executive Authority (UNTEA). UNTEA adalah badan pelaksana sementara PBB yang berada dibawah kekuasaan Sekretaris Jenderal PBB. UNTEA dibentuk karena terjadinya konflik antara Indonesia dengan Belanda dalam permasalahan perebutan status Papua Barat. </p>
             </DialogContent>
@@ -86,7 +86,7 @@ const Papua = () => {
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>
-                <DialogTitle className="text-white">4. Pelaksanaan Pepera dan Bergabungnya Papua ke Indonesia</DialogTitle>
+                <DialogTitle className="text-white text-xl">4. Pelaksanaan Pepera dan Bergabungnya Papua ke Indonesia</DialogTitle>
               </DialogHeader>
               <p className="text-white">Dalam perjanjian New York, Indonesia disyaratkan untuk melaksanakan Penentuan Pendapat Rakyat atau Pepera. Pepera merupakan pemilihan umum yang diadakan pada 14 Juli hingga 2 Agustus 1969. Melalui Pepera, rakyat Papua dapat memutuskan sendiri untuk bergabung atau tidak dengan wilayah Indonesia. Pada 1 Oktober 1962, Belanda menyerahkan otoritas administrasi Papua kepada UNTEA. Akhirnya pada 31 Desember 1962, kekuasaan de jure Indonesia atas tanah Papua pun dimulai dengan pengawasan PBB. Bendera Belanda juga diganti dengan Bendera Indonesia. Kedudukan Papua semakin pasti setelah dilaksanakannya Pepera pada 969. Hasil Pepera membuktikan bahwa sebanyak 1.025 rakyat Papua atau Irian Barat memilih untuk menjadi bagian dari wilayah Indonesia. Kemudian, hasil Pepera dibawa ke Sidang Umum PBB pada 19 Desember 1969 dan Sidang Umum PBB menerima dan menyetujui hasil Pepera. Setelah itu, Soeharto mengubah nama Irian Barat menjadi Irian Jaya. Irian merupakan singkatan dari Ikut Republik Indonesia Anti Netherland. </p>
             </DialogContent>
@@ -106,35 +106,12 @@ const Papua = () => {
             </DialogTrigger>
             <DialogContent className="bg-yellow-900">
               <DialogHeader>
-                <DialogTitle className="text-white">5. Otonomi Khusus Papua dan Pemekaran Wilayah</DialogTitle>
+                <DialogTitle className="text-white text-xl">5. Otonomi Khusus Papua dan Pemekaran Wilayah</DialogTitle>
               </DialogHeader>
               <p className="text-white">Sesuai dengan Undang-Undang Nomor 21 Tahun 2001 tentang Otonomi Khusus Papua, Provinsi Irian Jaya diganti menjadi Provinsi Papua. Pada tahun 2004, Papua dibagi menjadi dua provinsi yaitu di sebelah timur adalah provinsi Papua dan di sebelah barat merupakan provinsi Papua Barat. Dan pada tahun 2022, Papua dimekarkan menjadi 4 provinsi, maka terbentuklah 6 provinsi di pulau Papua yaitu provinsi Papua, provinsi Papua Barat, provinsi Papua Selatan, provinsi Papua Tengah, provinsi Papua Pegunungan, dan provinsi Papua Barat Daya. </p>
             </DialogContent>
           </Dialog>
         </div>
-
-        {/* Card Pengantar Otonomi Khusus dan Pemekaran Papua */}
-        {/* <div className="p-4 bg-yellow-900 rounded-lg flex flex-col">
-          <h3 className="text-xl font-semibold text-white">6. Otonomi Khusus dan Pemekaran Papua</h3>
-          <p className="text-white mt-2">
-            Papua mengalami perkembangan lebih lanjut dengan diberlakukannya otonomi khusus dan pemekaran wilayah.
-          </p>
-          <Dialog>
-            <DialogTrigger asChild>
-              <Button className="mt-auto text-yellow-900 text-lg" variant="outline"><CircleAlert className="mr-5"/>Selengkapnya</Button>
-            </DialogTrigger>
-            <DialogContent className="bg-yellow-900">
-              <DialogHeader>
-                <DialogTitle className="text-white">6. Otonomi Khusus dan Pemekaran Papua</DialogTitle>
-              </DialogHeader>
-              <p className="text-white">• Otonomi Khusus Papua diberlakukan melalui Undang-Undang Nomor 21 Tahun 2001.</p>
-              <p className="text-white">• Pemekaran wilayah Papua dilakukan, membentuk beberapa provinsi baru seperti Papua Barat.</p>
-              <p className="text-white">• Papua mengalami tantangan dalam implementasi otonomi khusus dan pemekaran, termasuk dalam bidang ekonomi, politik, dan keamanan.</p>
-            </DialogContent>
-          </Dialog>
-        </div> */}
-
-        {/* Card Fun Fact */}
       </div>
     </div>
   )
