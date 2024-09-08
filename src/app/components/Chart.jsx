@@ -193,7 +193,7 @@ export function Chart() {
                                     • Artinya: &quot;Semoga semuanya berada dalam keadaan baik atas rahmat Tuhan.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Penggunaan: Ucapan ini biasa digunakan di Bali dan dijawab dengan Om Shanti, Shanti, Shanti Om yang berarti "Damai, damai, damai."
+                                    • Penggunaan: Ucapan ini biasa digunakan di Bali dan dijawab dengan Om Shanti, Shanti, Shanti Om yang berarti &quot;Damai, damai, damai.&quot;
                                 </p>
                             </div>
                         </DialogContent>
@@ -268,7 +268,7 @@ export function Chart() {
                                     • Persentase persebaran: 0.03%
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Salam: Pada kepercayaan lainnya, salam tidak terikat pada agama tertentu. Namun yang sering digunakan untuk salam dari kepercaayan ini adalah "Salam Kebajikan"
+                                    • Salam: Pada kepercayaan lainnya, salam tidak terikat pada agama tertentu. Namun yang sering digunakan untuk salam dari kepercaayan ini adalah &quot;Salam Kebajikan&quot;
                                 </p>
                             </div>
                         </DialogContent>

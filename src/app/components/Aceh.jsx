@@ -27,7 +27,7 @@ const Aceh = () => {
                                 <DialogTitle className="text-white text-xl">1. Sejarah Awal dan Kerajaan Sriwijaya</DialogTitle>
                             </DialogHeader>
                             <p className="text-white">
-                                Pada tahun 506-581 Masehi, terdapat kerajaan Poli yang meliputi Aceh Besar, yang juga dikenal sebagai Lamuri dalam Nāgarakṛtāgama dan berbagai nama lain dalam sumber sejarah. Kerajaan ini berada di bawah pengaruh Sriwijaya, yang berpusat di Palembang dan mencapai puncak kejayaan di bawah raja Balaputradewa. Sriwijaya memiliki kekuasaan atas jalur perdagangan internasional di Selat Malaka. Pada 1025, Raja Rajendra Chola dari India selatan menyerang Sriwijaya dan pelabuhan-pelabuhannya, termasuk Lamuri, menyebabkan penurunan kewibawaan Sriwijaya yang berakhir pada 1377.
+                                Pada tahun 506-581 Masehi, terdapat kerajaan Poli yang meliputi Aceh Besar, yang juga dikenal sebagai Lamuri dalam Nagarakrtagama dan berbagai nama lain dalam sumber sejarah. Kerajaan ini berada di bawah pengaruh Sriwijaya, yang berpusat di Palembang dan mencapai puncak kejayaan di bawah raja Balaputradewa. Sriwijaya memiliki kekuasaan atas jalur perdagangan internasional di Selat Malaka. Pada 1025, Raja Rajendra Chola dari India selatan menyerang Sriwijaya dan pelabuhan-pelabuhannya, termasuk Lamuri, menyebabkan penurunan kewibawaan Sriwijaya yang berakhir pada 1377.
                             </p>
                         </DialogContent>
                     </Dialog>
@@ -71,7 +71,7 @@ const Aceh = () => {
                                 <DialogTitle className="text-white text-xl">3. Kesultanan Aceh</DialogTitle>
                             </DialogHeader>
                             <p className="text-white">
-                                Aceh mencapai kejayaan di bawah Sultan Iskandar Muda pada abad ke-17, memperluas kekuasaan hingga wilayah-wilayah di Sumatera dan Semenanjung Melayu. Sultan Iskandar Muda dikenal karena pembangunan Gunongan untuk istrinya dan keterlibatannya dalam konflik dengan Portugis. Aceh berperang melawan Portugis dan Belanda, dan pada akhir abad ke-19, Belanda berhasil menaklukkan Aceh setelah perang panjang dan taktik gerilya dari para pejuang Aceh seperti Teuku Umar dan Cut Nya' Dien.
+                                Aceh mencapai kejayaan di bawah Sultan Iskandar Muda pada abad ke-17, memperluas kekuasaan hingga wilayah-wilayah di Sumatera dan Semenanjung Melayu. Sultan Iskandar Muda dikenal karena pembangunan Gunongan untuk istrinya dan keterlibatannya dalam konflik dengan Portugis. Aceh berperang melawan Portugis dan Belanda, dan pada akhir abad ke-19, Belanda berhasil menaklukkan Aceh setelah perang panjang dan taktik gerilya dari para pejuang Aceh seperti Teuku Umar dan Cut Nya&apos; Dien.
                             </p>
                         </DialogContent>
                     </Dialog>
