@@ -106,13 +106,13 @@ export function Chart() {
                                     • Persentase persebaran: 86.93%
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Salam: &quot;Assalamu'alaikum&quot;
+                                    • Salam: &quot;Assalamu&apos;alaikum&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
                                     • Artinya: &quot;Semoga keselamatan tercurah kepada kamu.&quot;
                                 </p>
                                 <p className="text-black font-bold text-lg font-serif">
-                                    • Jawaban dari salam: &quot;Wa'alaikumussalam&quot; (Dan semoga keselamatan tercurah juga kepadamu).
+                                    • Jawaban dari salam: &quot;Wa&apos;alaikumussalam&quot; (Dan semoga keselamatan tercurah juga kepadamu).
                                 </p>
                             </div>
                         </DialogContent>
