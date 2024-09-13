@@ -69,3 +69,17 @@
   }
 }
 
+/* tambahkan ke file CSS global atau style.css */
+iframe::-webkit-scrollbar {
+  width: 6px; /* Ukuran scrollbar */
+}
+
+iframe::-webkit-scrollbar-thumb {
+  background-color: rgb(161, 98, 7); /* Warna scrollbar */
+  border-radius: 10px; /* Agar scrollbar berbentuk bulat */
+}
+
+iframe::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.1); /* Warna track scrollbar */
+}
+

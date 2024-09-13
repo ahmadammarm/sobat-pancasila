@@ -34,7 +34,7 @@ const Page = () => {
           <h1 className="text-4xl text-center font-bold mt-10 mb-10">Sejarah Aceh di Indonesia</h1>
           <EmbedVideoPapua />
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div>
           <Aceh />
         </div>
         <Copyright />

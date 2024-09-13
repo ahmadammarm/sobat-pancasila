@@ -17,7 +17,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/kejawen.jpeg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/kejawen.jpeg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Kejawen</h3>
           </CardHeader>
@@ -30,7 +30,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/sundawiwitan.jpg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/sundawiwitan.jpg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Sunda Wiwitan</h3>
           </CardHeader>
@@ -43,7 +43,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/aluktodolo.jpg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/aluktodolo.jpg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Aluk To Dolo</h3>
           </CardHeader>
@@ -56,7 +56,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/kaharingan.png" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/kaharingan.png" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Kaharingan</h3>
           </CardHeader>
@@ -69,7 +69,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/naurus.png" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/naurus.png" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Naurus</h3>
           </CardHeader>
@@ -82,7 +82,7 @@ const Kepercayaan = () => {
         <Card className="shadow-lg shadow-gray-400">
           <CardHeader>
             <div className="flex items-center justify-center">
-                <Image src="/agama/parmalim.jpeg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5" />
+                <Image src="/agama/parmalim.jpeg" alt="Kejawen" width={400} height={200} className="rounded-lg mb-5 w-full h-60 object-cover" />
             </div>
             <h3 className="text-xl font-semibold">Parmalim</h3>
           </CardHeader>
