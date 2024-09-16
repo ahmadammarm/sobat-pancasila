@@ -37,7 +37,7 @@ export default function BannerCarousel() {
   }, []);
 
   return (
-    <div className="relative w-full h-[400px] md:h-[600px] lg:h-[650px] overflow-hidden">
+    <div id="home" className="relative w-full h-[400px] md:h-[600px] lg:h-[650px] overflow-hidden">
       {bannerData.map((banner, index) => (
         <div
           key={index}

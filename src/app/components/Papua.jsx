@@ -11,7 +11,7 @@ const Papua = () => {
       <iframe
         src="https://papua.vercel.app/"
         title="Papua"
-        className="mt-24 w-full h-[60rem] border-none rounded-lg"
+        className="mt-24 w-full h-[50rem] border-none rounded-lg"
         allowFullScreen
       ></iframe>
     </div>

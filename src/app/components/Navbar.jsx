@@ -48,7 +48,7 @@ const Navbar = () => {
           {/* Desktop Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <NavLink href="/">Beranda</NavLink>
+              <NavLink href="/#home">Beranda</NavLink>
               <NavLink href="/#about">Tentang Kami</NavLink>
               <NavLink href="/#pembelajaran">Pembelajaran</NavLink>
             </div>
@@ -102,7 +102,7 @@ const Navbar = () => {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-yellow-800">
-            <MobileNavLink href="/" onClick={closeMenu}>
+            <MobileNavLink href="/#home" onClick={closeMenu}>
               Beranda
             </MobileNavLink>
             <MobileNavLink href="/#about" onClick={closeMenu}>

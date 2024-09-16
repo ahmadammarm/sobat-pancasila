@@ -69,6 +69,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* tambahkan ke file CSS global atau style.css */
 iframe::-webkit-scrollbar {
   width: 6px; /* Ukuran scrollbar */

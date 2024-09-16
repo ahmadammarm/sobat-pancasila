@@ -30,7 +30,7 @@ export default function Home() {
       <Navbar />
       <BannerCarousel />
       <About />
-      <h1 className="text-center text-lg text-yellow-700" id="pembelajaran">──── Fitur Pembelajaran ────</h1>
+      <h1 className="text-center text-lg text-yellow-700" id="pembelajaran">Fitur Pembelajaran</h1>
       <h1 className="text-center text-4xl mb-16 font-bold text-slate-800" style={{ fontFamily: 'Pacifico, cursive' }}>Ragam Fitur Pembelajaran</h1>
       <HomeLink/>
       <Copyright />
