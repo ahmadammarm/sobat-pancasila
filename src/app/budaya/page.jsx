@@ -47,13 +47,13 @@ const Page = () => {
     <>
       <Navbar />
       <HeaderBanner 
-        title={selectedIsland ? `Peta ${islands[selectedIsland].nama}` : "PETA WILAYAH INDONESIA"} 
-        subtitle="Peta" 
+        title={selectedIsland ? `Kebudayaan di ${islands[selectedIsland].nama}` : "KEBUDAYAAN DI INDONESIA"} 
+        subtitle="Budaya" 
         link={selectedIsland ? "Kembali" : "Beranda"} 
         href="/" 
       />
       <h1 className="text-4xl font-bold text-center mt-24">
-        Peta Wilayah Indonesia Saat Ini
+        Kebudayaan di Indonesia
       </h1>
       <div className={`flex items-center justify-center min-h-screen p-4 transition-opacity duration-500 ${selectedIsland ? 'opacity-100' : 'opacity-90'}`}>
         {selectedIsland ? (

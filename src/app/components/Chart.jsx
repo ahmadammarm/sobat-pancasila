@@ -68,7 +68,7 @@ export function Chart() {
     return (
         <Card className="flex flex-col shadow-xl shadow-gray-500">
             <CardHeader className="items-center pb-0">
-                <CardTitle className="text-center text-3xl font-bold">Persentase Persebaran Agama dan Kepercayaan di Indonesia</CardTitle>
+                <CardTitle className="text-center text-3xl font-bold font-sans">Persentase Persebaran Agama dan Kepercayaan di Indonesia</CardTitle>
             </CardHeader>
             <CardContent className="flex-1 pb-0">
                 <ChartContainer
@@ -89,6 +89,9 @@ export function Chart() {
                         />
                     </PieChart>
                 </ChartContainer>
+                <h1 className="text-center text-2xl font-bold mt-5 font-sans">
+                    Informasi Penting
+                </h1>
                 <div className="mt-4 flex flex-wrap justify-center gap-4">
                     <Dialog>
                         <DialogTrigger asChild>

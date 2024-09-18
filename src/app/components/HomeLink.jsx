@@ -41,7 +41,7 @@ const HomeLink = () => {
       bgColor: 'bg-blue-500',
     },
     {
-      href: '/karakteristik',
+      href: '/budaya',
       text: 'BUDAYA INDONESIA',
       imgSrc: '/karakteristik.jpg',
       bgColor: 'bg-yellow-500',

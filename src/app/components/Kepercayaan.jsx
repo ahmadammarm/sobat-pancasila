@@ -5,7 +5,7 @@ import React from 'react'
 const Kepercayaan = () => {
   return (
     <div>
-      <h1 className='text-center mt-24 text-4xl font-bold mb-16'>Contoh Kepercayaan di Indonesia</h1>
+      <h1 className='text-center mt-24 text-4xl font-bold mb-16 font-sans'>Contoh Kepercayaan di Indonesia</h1>
       <div className="*:
         grid
         grid-cols-1

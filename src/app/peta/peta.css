@@ -1,0 +1,4 @@
+.zoomed {
+  transform: scale(1.5); /* Mengatur ukuran zoom */
+  transition: transform 0.3s ease; /* Animasi smooth saat zoom */
+}

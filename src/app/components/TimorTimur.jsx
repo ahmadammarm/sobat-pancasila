@@ -1,11 +1,8 @@
-import { Button } from '@/components/ui/button'
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
-import { CircleAlert } from 'lucide-react'
-import Image from 'next/image'
 import React from 'react'
 
 
 const TimorTimur = () => {
+
   return (
     <div className="">
       <iframe
