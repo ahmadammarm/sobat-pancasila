@@ -35,9 +35,9 @@ const HomeLink = () => {
       bgColor: 'bg-green-500',
     },
     {
-      href: '/agama',
-      text: 'AGAMA & KEPERCAYAAN INDONESIA',
-      imgSrc: '/suku.jpg',
+      href: '/konflik',
+      text: 'KONFLIK WILAYAH INDONESIA',
+      imgSrc: '/konflik.jpg',
       bgColor: 'bg-blue-500',
     },
     {

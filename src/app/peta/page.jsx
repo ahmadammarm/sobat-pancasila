@@ -8,7 +8,7 @@ import HeaderBanner from '../components/HeaderBanner';
 
 const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const [selectedIsland, setSelectedIsland] = useState(null);
+  const [selectedTimeline, setSelectedTimeline] = useState('2010-sekarang');
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -25,7 +25,7 @@ const Page = () => {
   const islands = {
     sumatera: { img: '/pulau/SUMATERA.png', nama: 'Sumatera', description: 'Sumatera adalah pulau terbesar keenam di dunia, terkenal dengan hutan hujan tropisnya.' },
     sulawesi: { img: '/pulau/SULAWESI.png', nama: 'Sulawesi', description: 'Sulawesi dikenal dengan bentuknya yang unik dan kekayaan budaya.' },
-    bali: { img: '/pulau/bali.png', nama: 'Bali', description: 'Bali adalah destinasi wisata terkenal dengan pantai dan budayanya.' },
+    bali: { img: '/pulau/bali.png', nama: 'Bali adalah destinasi wisata terkenal dengan pantai dan budayanya.' },
     nusaTenggaraBarat: { img: '/pulau/ntb.png', nama: 'Nusa Tenggara Barat', description: 'Nusa Tenggara Barat memiliki pantai yang indah dan gunung berapi aktif.' },
     nusaTenggaraTimur: { img: '/pulau/ntt.png', nama: 'Nusa Tenggara Timur', description: 'Nusa Tenggara Timur dikenal dengan keanekaragaman hayati dan budaya.' },
     maluku: { img: '/pulau/MALUKU.png', nama: 'Maluku', description: 'Maluku adalah wilayah kepulauan dengan sejarah perdagangan rempah-rempah.' },
@@ -33,70 +33,81 @@ const Page = () => {
     kalimantan: { img: '/pulau/KALIMANTAN.png', nama: 'Kalimantan', description: 'Kalimantan adalah pulau yang sebagian besar tertutup hutan hujan tropis.' },
     jawa: { img: '/pulau/JAWA.png', nama: 'Jawa', description: 'Jawa adalah pulau dengan kepadatan penduduk tertinggi di Indonesia.' },
   };
-  
 
-  const handleIslandClick = (island) => {
-    setSelectedIsland(island);
-  };
 
-  const handleBackClick = () => {
-    setSelectedIsland(null);
+  // Fungsi untuk mengatur garis waktu
+  const handleTimelineClick = (timeline) => {
+    setSelectedTimeline(timeline);
   };
 
   return (
     <>
       <Navbar />
-      <HeaderBanner 
-        title={selectedIsland ? `Peta ${islands[selectedIsland].nama}` : "PETA WILAYAH INDONESIA"} 
-        subtitle="Peta" 
-        link={selectedIsland ? "Kembali" : "Beranda"} 
-        href="/" 
+      <HeaderBanner
+        title={"PETA WILAYAH INDONESIA"}
+        subtitle="Peta"
+        href="/"
       />
       <h1 className="text-4xl font-bold text-center mt-24">
-        Peta Wilayah Indonesia Saat Ini
+        Peta Wilayah Indonesia
       </h1>
-      <div className={`flex items-center justify-center min-h-screen p-4 transition-opacity duration-500 ${selectedIsland ? 'opacity-100' : 'opacity-90'}`}>
-        {selectedIsland ? (
-          <div className="flex flex-col items-center justify-center min-h-screen">
-            <button
-              onClick={handleBackClick}
-              className="mb-10 p-2 bg-yellow-800 text-white rounded-md transition-transform duration-300 hover:scale-105"
-            >
-              Kembali ke Peta
-            </button>
-            <div className={`transition-transform duration-700 transform scale-105 ${selectedIsland ? 'opacity-100' : 'opacity-0'}`}>
-              <img
-                src={islands[selectedIsland].img}
-                alt={islands[selectedIsland].nama}
-                className="w-3/4 h-auto rounded-md"
-              />
-            </div>
-            <div className="text-center left-1/2 transform -translate-x-1/2 bg-black bg-opacity-50 text-white p-2 rounded-md">
-                {islands[selectedIsland].nama}
-              </div>
-          </div>
-        ) : (
+
+      {/* Tombol untuk memilih periode waktu */}
+      <div className="flex justify-center my-6 space-x-4">
+        <button
+          className={`p-2 rounded-md ${selectedTimeline === '1945-1957' ? 'bg-yellow-700 text-white' : 'bg-gray-300'}`}
+          onClick={() => handleTimelineClick('1945-1957')}
+        >
+          1945-1957
+        </button>
+        <button
+          className={`p-2 rounded-md ${selectedTimeline === '1957-1969' ? 'bg-yellow-700 text-white' : 'bg-gray-300'}`}
+          onClick={() => handleTimelineClick('1957-1969')}
+        >
+          1957-1969
+        </button>
+        <button
+          className={`p-2 rounded-md ${selectedTimeline === '1969-1998' ? 'bg-yellow-700 text-white' : 'bg-gray-300'}`}
+          onClick={() => handleTimelineClick('1969-1998')}
+        >
+          1969-1998
+        </button>
+        <button
+          className={`p-2 rounded-md ${selectedTimeline === '1998-2010' ? 'bg-yellow-700 text-white' : 'bg-gray-300'}`}
+          onClick={() => handleTimelineClick('1998-2010')}
+        >
+          1998-2010
+        </button>
+        <button
+          className={`p-2 rounded-md ${selectedTimeline === '2010-sekarang' ? 'bg-yellow-700 text-white' : 'bg-gray-300'}`}
+          onClick={() => handleTimelineClick('2010-sekarang')}
+        >
+          2010-sekarang
+        </button>
+      </div>
+
+      <div className={`flex items-center justify-center min-h-screen p-4 transition-opacity duration-500`}>
           <div className="flex flex-col md:flex-row">
             <div className="flex flex-col mt-16 md:mb-0 relative group">
-              <div className={`transition-transform duration-700 transform ${selectedIsland === 'sumatera' ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110`}>
+              <div className={`transition-transform duration-700 transform hover:scale-110`}>
                 <img
                   src={islands.sumatera.img}
                   alt={islands.sumatera.nama}
-                  width="250"
+                  width="300"
                   height="200"
                   className="cursor-pointer rounded-md"
                   onClick={() => handleIslandClick('sumatera')}
                 />
               </div>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col mt-16">
               {['kalimantan', 'jawa'].map((island) => (
                 <div key={island} className="flex justify-center relative group">
-                  <div className={`transition-transform duration-700 transform ${selectedIsland === island ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110`}>
+                  <div className={`transition-transform duration-700 transform hover:scale-110`}>
                     <img
                       src={islands[island].img}
                       alt={islands[island].nama}
-                      width="250"
+                      width="230"
                       height="200"
                       className="cursor-pointer rounded-md"
                       onClick={() => handleIslandClick(island)}
@@ -105,63 +116,87 @@ const Page = () => {
                 </div>
               ))}
             </div>
-            <div className="flex flex-col mt-5 ml-4 space-y-4">
+
+            <div className="flex flex-col mt-[8rem] ml-4 space-y-4">
               <div className="relative group">
-                <div className={`transition-transform duration-700 transform ${selectedIsland === 'sulawesi' ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110`}>
+                <div className={`transition-transform duration-700 transform hover:scale-110`}>
                   <img
                     src={islands.sulawesi.img}
                     alt={islands.sulawesi.nama}
-                    width="210"
+                    width="200"
                     height="100"
                     className="cursor-pointer rounded-md"
                     onClick={() => handleIslandClick('sulawesi')}
                   />
                 </div>
               </div>
+              {/* Gambar Nusa Tenggara Barat (NTB) dan Nusa Tenggara Timur (NTT) */}
               <div className="flex flex-row">
-                {['bali', 'nusaTenggaraBarat', 'nusaTenggaraTimur'].map((island) => (
-                  <div key={island} className="relative group">
-                    <div className={`transition-transform duration-700 transform ${selectedIsland === island ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110 ml-2 mt-12`}>
-                      <img
-                        src={islands[island].img}
-                        alt={islands[island].nama}
-                        width="50"
-                        height="50"
-                        className="cursor-pointer rounded-md"
-                        onClick={() => handleIslandClick(island)}
-                      />
-                    </div>
+                <div className={`transition-transform duration-700 transform hover:scale-110`}>
+                  <img
+                    src={islands.bali.img}
+                    alt={islands.bali.nama}
+                    width="30" // Ukuran lebih kecil
+                    height="30" // Ukuran lebih kecil
+                    className="cursor-pointer rounded-md"
+                    onClick={() => handleIslandClick('bali')}
+                  />
+                </div>
+                <div className={`transition-transform duration-700 transform hover:scale-110`}>
+                  <img
+                    src={islands.nusaTenggaraBarat.img}
+                    alt={islands.nusaTenggaraBarat.nama}
+                    width="100" // Ukuran NTB
+                    height="100" // Ukuran NTB
+                    className="cursor-pointer rounded-md"
+                    onClick={() => handleIslandClick('nusaTenggaraBarat')}
+                  />
+                </div>
+                <div className={`transition-transform duration-700 transform hover:scale-110`}>
+                  <img
+                    src={islands.nusaTenggaraTimur.img}
+                    alt={islands.nusaTenggaraTimur.nama}
+                    width="100" // Ukuran NTT
+                    height="100" // Ukuran NTT
+                    className="cursor-pointer rounded-md"
+                    onClick={() => handleIslandClick('nusaTenggaraTimur')}
+                  />
+                </div>
+              </div>
+
+            </div>
+            <div className="flex flex-row mt-24">
+              <div className="">
+                <div className={`transition-transform duration-700 transform hover:scale-110`}>
+                  <img
+                    src={islands.maluku.img}
+                    alt={islands.maluku.nama}
+                    width="200"
+                    height="150"
+                    className="cursor-pointer rounded-md"
+                    onClick={() => handleIslandClick('maluku')}
+                  />
+                </div>
+              </div>
+              {/* Menampilkan Papua hanya jika timeline >= 1969 */}
+              {(selectedTimeline === '1969-1998' || selectedTimeline === '1998-2010' || selectedTimeline === '2010-sekarang') && (
+                <div className="flex flex-col mt-10">
+                  <div className={`transition-transform duration-700 transform hover:scale-110`}>
+                    <img
+                      src={islands.papua.img}
+                      alt={islands.papua.nama}
+                      width="300"
+                      height="120"
+                      className="cursor-pointer rounded-md"
+                      onClick={() => handleIslandClick('papua')}
+                    />
                   </div>
-                ))}
-              </div>
-            </div>
-            <div className="flex flex-col mt-10 relative group">
-              <div className={`transition-transform duration-700 transform ${selectedIsland === 'maluku' ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110 mb-4`}>
-                <img
-                  src={islands.maluku.img}
-                  alt={islands.maluku.nama}
-                  width="150"
-                  height="50"
-                  className="cursor-pointer rounded-md"
-                  onClick={() => handleIslandClick('maluku')}
-                />
-              </div>
-            </div>
-            <div className="flex flex-col mt-10 relative group">
-              <div className={`transition-transform duration-700 transform ${selectedIsland === 'papua' ? 'opacity-0 scale-90' : 'opacity-100 scale-100'} hover:scale-110 mt-5`}>
-                <img
-                  src={islands.papua.img}
-                  alt={islands.papua.nama}
-                  width="300"
-                  height="200"
-                  className="cursor-pointer rounded-md"
-                  onClick={() => handleIslandClick('papua')}
-                />
-              </div>
+                </div>
+              )}
             </div>
           </div>
-        )}
       </div>
+
       <Copyright />
     </>
   );
