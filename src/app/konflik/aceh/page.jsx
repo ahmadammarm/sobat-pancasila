@@ -28,7 +28,7 @@ const Page = () => {
   return (
     <>
       <Navbar />
-      <HeaderSejarah title="KONFLIK DI ACEH" subtitle="Aceh" link="Sejarah" href="/sejarah" bgImage="/sejarah/aceh.jpg" />
+      <HeaderSejarah title="KONFLIK DI ACEH" subtitle="Aceh" link="Konflik" href="/konflik" bgImage="/sejarah/aceh.jpg" />
       <div className="p-5">
         <div className="flex flex-col justify-center items-center mb-10 mt-20">
           <h1 className="text-4xl text-center font-bold mt-10 mb-10">Konflik di Wilayah Aceh</h1>

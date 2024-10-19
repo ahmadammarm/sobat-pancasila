@@ -28,7 +28,7 @@ const Page = () => {
   return (
     <>
       <Navbar />
-      <HeaderSejarah title="SEJARAH IBUKOTA NUSANTARA" subtitle="IKN" link="Sejarah" href="/sejarah" bgImage="/sejarah/ikn.jpg" />
+      <HeaderSejarah title="SEJARAH IBUKOTA NUSANTARA" subtitle="IKN" link="Konflik" href="/konflik" bgImage="/sejarah/ikn.jpg" />
       <div className="p-5">
         <div className="flex flex-col justify-center items-center mb-10 mt-20">
           <h1 className="text-4xl text-center font-bold mt-10 mb-10">Sejarah IKN di Indonesia</h1>
