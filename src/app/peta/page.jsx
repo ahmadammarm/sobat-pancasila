@@ -46,6 +46,7 @@ const Page = () => {
       <HeaderBanner
         title={"PETA WILAYAH INDONESIA"}
         subtitle="Peta"
+        link="Beranda"
         href="/"
       />
       <h1 className="text-4xl font-bold text-center mt-24">

@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import Typewriter from 'typewriter-effect';
 import { Card, CardHeader, CardTitle } from '@/components/ui/card';
 
 const KebudayaanLink = () => {
@@ -25,7 +24,7 @@ const KebudayaanLink = () => {
     {
       href: '/budaya/agama',
       text: 'AGAMA',
-      imgSrc: '/konflik.jpg',
+      imgSrc: '/agama/parmalim.jpeg',
       bgColor: 'bg-blue-500',
     },
     {

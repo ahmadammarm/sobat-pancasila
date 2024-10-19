@@ -22,10 +22,10 @@ const About = () => {
                     <div className='flex flex-col md:flex-row'>
                         <img src="/banner2.jpg" alt="lorem" className='w-full h-full md:w-36 md:h-24 rounded-md border-4 border-yellow-600 mr-4' />
                         <ul className='text-gray-700 items-start mt-5 md:mt-0'>
-                            <li className='mb-2'>✔ Peta Interaktif</li>
+                            <li className='mb-2'>✔ Peta dengan Linimasa</li>
                             <li className='mb-2'>✔ Pembelajaran Sejarah Dilengkapi dengan Video</li>
-                            <li className='mb-2'>✔ Suku</li>
-                            <li className='mb-2'>✔ Karakteristik</li>
+                            <li className='mb-2'>✔ Penjelasan Konflik dan Sejarah dengan Flipbook</li>
+                            <li className='mb-2'>✔ Pembelajaran Kebudayaan di Indonesia</li>
                         </ul>
                     </div>
                 </div>

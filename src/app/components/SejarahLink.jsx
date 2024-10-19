@@ -51,7 +51,7 @@ const SejarahLink = () => {
     {
       href: '/sejarah/2010-sekarang',
       text: 'SEJARAH 2010-sekarang',
-      imgSrc: '/sejarah/ikn.jpg',
+      imgSrc: '/sejarah/terakhir.jpg',
       bgColor: 'bg-yellow-600',
     },
   ];

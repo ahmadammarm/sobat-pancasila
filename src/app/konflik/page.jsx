@@ -27,7 +27,7 @@ const Page = () => {
     <>
       <Navbar />
       {/* <HomeButton /> */}
-      <HeaderBanner title="KONFLIK WILAYAH INDONESIA" subtitle="Sejarah" link="Beranda" href="/" />
+      <HeaderBanner title="KONFLIK WILAYAH INDONESIA" subtitle="Konflik" link="Beranda" href="/" />
       <div className="p-4">
         <h1 className="text-4xl font-bold text-center mt-24 mb-5">
           Konflik Wilayah Indonesia
