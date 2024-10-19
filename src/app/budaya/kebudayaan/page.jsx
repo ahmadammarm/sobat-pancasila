@@ -45,22 +45,22 @@ const Page = () => {
             imgModal: "/kebudayaan/kebudayaan_ntt.png",
         },
         maluku: {
-            img: "/kebudayaan/MALUKU.png",
+            img: "/kebudayaan/maluku.png",
             nama: "Kebudayaan Maluku",
             imgModal: "/kebudayaan/kebudayaan_maluku.png",
         },
         papua: {
-            img: "/kebudayaan/PAPUA.png",
+            img: "/kebudayaan/papua.png",
             nama: "Kebudayaan Papua",
             imgModal: "/kebudayaan/kebudayaan_papua.png",
         },
         kalimantan: {
-            img: "/kebudayaan/KALIMANTAN.png",
+            img: "/kebudayaan/kalimantan.png",
             nama: "Kebudayaan Kalimantan",
             imgModal: "/kebudayaan/kebudayaan_kalimantan.png",
         },
         jawa: {
-            img: "/kebudayaan/JAWA.png",
+            img: "/kebudayaan/jawa.png",
             nama: "Kebudayaan Jawa",
             imgModal: "/kebudayaan/kebudayaan_jawa.png",
         },
