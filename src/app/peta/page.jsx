@@ -196,7 +196,16 @@ const Page = () => {
               )}
             </div>
           </div>
+        {/* Link Ke Sejarah */}
       </div>
+        <div className="flex items-center justify-center p-4">
+          <a
+            href="/sejarah"
+            className="text-lg font-bold text-white bg-yellow-700 px-4 py-2 rounded-md"
+          >
+            Sejarah
+          </a>
+        </div>
 
       <Copyright />
     </>
