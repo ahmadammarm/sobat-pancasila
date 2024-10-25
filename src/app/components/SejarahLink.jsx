@@ -24,25 +24,25 @@ const SejarahLink = () => {
     {
       href: '/sejarah/1945-1957',
       text: 'SEJARAH 1945-1957',
-      imgSrc: '/sejarah/papua.jpg',
+      imgSrc: '/sejarah/1945-1957.jpeg',
       bgColor: 'bg-red-600',
     },
     {
       href: '/sejarah/1957-1969',
       text: 'SEJARAH 1957-1969',
-      imgSrc: '/sejarah/timor-timur.jpg',
+      imgSrc: '/sejarah/1957-1969.jpg',
       bgColor: 'bg-green-600',
     },
     {
       href: '/sejarah/1969-1998',
       text: 'SEJARAH 1969-1998',
-      imgSrc: '/sejarah/aceh.jpg',
+      imgSrc: '/sejarah/1969-1998.jpeg',
       bgColor: 'bg-blue-600',
     },
     {
       href: '/sejarah/1998-2010',
       text: 'SEJARAH 1998-2010',
-      imgSrc: '/sejarah/ikn.jpg',
+      imgSrc: '/sejarah/1998-2010.jpeg',
       bgColor: 'bg-yellow-600',
     },
   ];
@@ -51,7 +51,7 @@ const SejarahLink = () => {
     {
       href: '/sejarah/2010-sekarang',
       text: 'SEJARAH 2010-sekarang',
-      imgSrc: '/sejarah/terakhir.jpg',
+      imgSrc: '/sejarah/2010-sekarang.jpg',
       bgColor: 'bg-yellow-600',
     },
   ];
