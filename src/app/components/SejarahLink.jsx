@@ -22,25 +22,25 @@ const SejarahLink = () => {
 
   const links = [
     {
-      href: '/sejarah/1945-1957',
+      href: '/peta/sejarah/1945-1957',
       text: 'SEJARAH 1945-1957',
       imgSrc: '/sejarah/1945-1957.jpeg',
       bgColor: 'bg-red-600',
     },
     {
-      href: '/sejarah/1957-1969',
+      href: '/peta/sejarah/1957-1969',
       text: 'SEJARAH 1957-1969',
       imgSrc: '/sejarah/1957-1969.jpg',
       bgColor: 'bg-green-600',
     },
     {
-      href: '/sejarah/1969-1998',
+      href: '/peta/sejarah/1969-1998',
       text: 'SEJARAH 1969-1998',
       imgSrc: '/sejarah/1969-1998.jpeg',
       bgColor: 'bg-blue-600',
     },
     {
-      href: '/sejarah/1998-2010',
+      href: '/peta/sejarah/1998-2010',
       text: 'SEJARAH 1998-2010',
       imgSrc: '/sejarah/1998-2010.jpeg',
       bgColor: 'bg-yellow-600',
