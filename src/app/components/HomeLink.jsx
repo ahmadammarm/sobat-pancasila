@@ -29,15 +29,15 @@ const HomeLink = () => {
       bgColor: 'bg-red-500',
     },
     {
-      href: '/sejarah',
-      text: 'SEJARAH WILAYAH INDONESIA',
-      imgSrc: '/prambanan.jpg',
-      bgColor: 'bg-green-500',
-    },
-    {
       href: '/konflik',
       text: 'KONFLIK WILAYAH INDONESIA',
       imgSrc: '/konflik.jpg',
+      bgColor: 'bg-green-500',
+    },
+    {
+      href: '/agama',
+      text: 'AGAMA & KEPERCAYAAN',
+      imgSrc: '/suku.jpg',
       bgColor: 'bg-blue-500',
     },
     {

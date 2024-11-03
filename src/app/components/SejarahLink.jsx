@@ -49,7 +49,7 @@ const SejarahLink = () => {
 
   const links2 = [
     {
-      href: '/sejarah/2010-sekarang',
+      href: '/peta/sejarah/2010-sekarang',
       text: 'SEJARAH 2010-sekarang',
       imgSrc: '/sejarah/2010-sekarang.jpg',
       bgColor: 'bg-yellow-600',

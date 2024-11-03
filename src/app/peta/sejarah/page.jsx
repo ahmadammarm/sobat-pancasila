@@ -28,7 +28,7 @@ const Page = () => {
     <>
       <Navbar />
       {/* <HomeButton /> */}
-      <HeaderBanner title="SEJARAH WILAYAH INDONESIA" subtitle="Sejarah" link="Kembali" href="/peta" />
+      <HeaderBanner title="SEJARAH WILAYAH INDONESIA" subtitle="Sejarah" link="Peta" href="/peta" />
       <div className="p-4">
         <h1 className="text-4xl font-bold text-center mt-24 mb-5">
           Sejarah Wilayah Indonesia
