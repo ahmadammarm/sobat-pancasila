@@ -55,7 +55,7 @@ const About = () => {
                         onClick={handleToggleContent}
                         className='px-6 py-2 bg-yellow-600 text-white font-semibold rounded-md hover:bg-yellow-700 transition duration-300 mb-4'
                     >
-                        {showLearningOutcomes ? 'Kembali ke Tentang Kami' : 'Lihat Capaian Pembelajaran'}
+                        {showLearningOutcomes ? 'Kembali ke Tentang Kami' : 'Lihat Capaian dan Tujuan Pembelajaran'}
                     </button>
 
                     {!showLearningOutcomes && (
