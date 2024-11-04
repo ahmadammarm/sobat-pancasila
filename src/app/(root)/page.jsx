@@ -33,6 +33,10 @@ export default function Home() {
       <h1 className="text-center text-lg text-yellow-700" id="pembelajaran">Fitur Pembelajaran</h1>
       <h1 className="text-center text-4xl mb-16 font-bold text-slate-800" style={{ fontFamily: 'Pacifico, cursive' }}>Ragam Fitur Pembelajaran</h1>
       <HomeLink/>
+      <div className="mb-16">
+        {/* link to quiz */}
+        <a href="https://kuis-lentara.vercel.app" className="p-5 rounded-md bg-yellow-700 text-white font-bold">Menuju Kuis</a>
+      </div>
       <Copyright />
     </motion.main>
   );
